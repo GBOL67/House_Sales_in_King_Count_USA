@@ -1,4 +1,4 @@
-# [House Sales in King Count USA]( )
+# [House Sales in King Count USA](https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/House_Sales_in_King_Count_USA.ipynb)
 The primary objective of this project is to develop a predictive model for estimating house prices in King County, USA, to assist a Real Estate Investment Trust (REIT) in making informed investment decisions in the residential real estate market. The model aims to identify key predictors of house prices and provide accurate price estimates, thereby enabling the REIT to assess property values and potential returns on investment effectively.
 
 ## Data Understanding
