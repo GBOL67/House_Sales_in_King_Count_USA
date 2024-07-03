@@ -58,7 +58,6 @@ The primary objective of this project is to develop a predictive model for estim
 
 <p><b>Output:</b> Histogram plots used to compare the categorized price data with other features such as bathrooms, bedrooms, and square footage of living space.</p>
 
-
 ## Model Development 
 **Input:** Dataset `clean`. The dependent data (Y) consist of the price feature while the independent data (X) consist of all features except the price feature. 
 1. **Data Splitting**: Divided the dataset into training and testing sets with various test sizes (10%, 25%, 75%).
@@ -66,11 +65,12 @@ The primary objective of this project is to develop a predictive model for estim
 3. **Linear Regression**: Built multiple linear regression models and evaluated their performance, achieving an initial R-squared value of 0.768 with a polynomial order of 2.
 <img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/r2_vs_order.PNG" align="center" width="700" height="600" /> 
 <p><b>Output:</b> The test size of 10% and polynomial transformation of the 2nd order for model refinement.</p>
+
 ## Model Refinement and Evaluation
 **Input:** Dataset `clean`. The dependent data (Y) consist of the price feature while the independent data (X) consist of all features except the price feature. 
 1. **Cross-Validation**: Refined the model using cross-validation with a test size of 10%, improving the R-squared value to 0.863.
 2. **Ridge Regression**: Implemented Ridge regression with Grid Search to optimize the regularization parameter with the fold created with the cross-validation method, resulting in a cross-validated R-squared of 0.865 and a test set R-squared of 0.873.
-**Output:** A density plot that shows the relationship between the predicted data and the actual data.
+<p><b>Output:</b> A density plot that shows the relationship between the predicted data and the actual data.</p>
 <img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/model%20refinement.PNG" align="center" width="700" height="600" /> 
 
 ## CONCLUSION
