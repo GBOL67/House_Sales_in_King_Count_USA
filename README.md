@@ -62,7 +62,7 @@ The primary objective of this project is to develop a predictive model for estim
 1. **Data Splitting**: Divided the dataset into training and testing sets with various test sizes (10%, 25%, 75%).
 2. **Polynomial Features**: Applied polynomial transformations (orders 1 to 3) to the independent variables to capture non-linear relationships.
 3. **Linear Regression**: Built multiple linear regression models and evaluated their performance, achieving an initial R-squared value of 0.768 with a polynomial order of 2.
-<img src="https://github.com/GBOL67/Taxi-Tip-Prediction/blob/main/media/r2_vs_order.PNG" align="center" width="700" height="600" /> 
+<img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/r2_vs_order.PNG" align="center" width="700" height="600" /> 
 
 
 **Output:** The test size of 10% and polynomial transformation of the 2nd order for model refinement.
