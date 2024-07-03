@@ -54,8 +54,10 @@ The primary objective of this project is to develop a predictive model for estim
 2. **Feature Categorization**: The price data was categorized into three levels: `low (<3.219500e+05)`, `medium (<4.500000e+05)`, and `high (<7.700000e+06)`. Histogram plots were used to compare the categorized price data with other features such as bathrooms, bedrooms, and square footage of living space. These features were also categorized to match the price data for better comparison.
 <img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/bathrooms.PNG" align="center" width="700" height="600" />
 <img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/bedrooms.PNG" align="center" width="700" height="600" />
-<img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/sqft_living_bins.PNG" align="center" width="700" height="600" /> 
-**Output:** Histogram plots used to compare the categorized price data with other features such as bathrooms, bedrooms, and square footage of living space.   
+<img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/sqft_living_bins.PNG" align="center" width="700" height="600" />
+
+<p><b>Output:</b> Histogram plots used to compare the categorized price data with other features such as bathrooms, bedrooms, and square footage of living space.</p>
+
 
 ## Model Development 
 **Input:** Dataset `clean`. The dependent data (Y) consist of the price feature while the independent data (X) consist of all features except the price feature. 
@@ -63,17 +65,13 @@ The primary objective of this project is to develop a predictive model for estim
 2. **Polynomial Features**: Applied polynomial transformations (orders 1 to 3) to the independent variables to capture non-linear relationships.
 3. **Linear Regression**: Built multiple linear regression models and evaluated their performance, achieving an initial R-squared value of 0.768 with a polynomial order of 2.
 <img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/r2_vs_order.PNG" align="center" width="700" height="600" /> 
-
-
-**Output:** The test size of 10% and polynomial transformation of the 2nd order for model refinement.
-
+<p><b>Output:</b> The test size of 10% and polynomial transformation of the 2nd order for model refinement.</p>
 ## Model Refinement and Evaluation
 **Input:** Dataset `clean`. The dependent data (Y) consist of the price feature while the independent data (X) consist of all features except the price feature. 
 1. **Cross-Validation**: Refined the model using cross-validation with a test size of 10%, improving the R-squared value to 0.863.
 2. **Ridge Regression**: Implemented Ridge regression with Grid Search to optimize the regularization parameter with the fold created with the cross-validation method, resulting in a cross-validated R-squared of 0.865 and a test set R-squared of 0.873.
-<img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/model%20refinement.PNG" align="center" width="700" height="600" /> 
-
 **Output:** A density plot that shows the relationship between the predicted data and the actual data.
+<img src="https://github.com/GBOL67/House_Sales_in_King_Count_USA/blob/main/media/model%20refinement.PNG" align="center" width="700" height="600" /> 
 
 ## CONCLUSION
 A comprehensive analysis of house prices in King County was done leveraging various features to develop a predictive model. The model demonstrated that the square footage of living space is the most significant predictor of house prices, while the duration since construction had a negative impact. The refined model, using cross-validation, achieved an R-squared value of 0.86317220221015, indicating a good fit and reliability in predicting house prices.
