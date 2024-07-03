@@ -77,5 +77,3 @@ The primary objective of this project is to develop a predictive model for estim
 
 ## CONCLUSION
 A comprehensive analysis of house prices in King County was done leveraging various features to develop a predictive model. The model demonstrated that the square footage of living space is the most significant predictor of house prices, while the duration since construction had a negative impact. The refined model, using cross-validation, achieved an R-squared value of 0.86317220221015, indicating a good fit and reliability in predicting house prices.
-
-The close R-squared values of the linear regression model and the Ridge regression model suggest that the dataset is well-structured with strong linear relationships between the features and the target variable. The limited presence of multicollinearity and the small regularization parameter for Ridge regression indicate that the linear regression model was already performing well. Therefore, the Ridge regression model only provided a marginal improvement by slightly adjusting the coefficients to enhance generalization.
